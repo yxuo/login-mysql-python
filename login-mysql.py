@@ -6,6 +6,7 @@ REQUISITOS:
 source
 * Center window - https://stackoverflow.com/questions/3352918/how-to-center-a-window-on-the-screen-in-tkinter
 * info, warning window - https://www.geeksforgeeks.org/python-tkinter-messagebox-widget/
+* tomato icon - https://icon-icons.com/icon/tomato-vegetables-vegetable-food-agriculture-fruit/220780
 '''
 
 import tkinter as tk
@@ -71,6 +72,7 @@ win_login.eval('tk::PlaceWindow . center')
 win_login.geometry("300x250")
 win_login.minsize(300, 250)
 win_login.title("Login")
+win_login.iconbitmap("tomato.ico")
 
 win_login.grid_columnconfigure(0, weight=0)
 win_login.grid_columnconfigure(1, weight=0)
